@@ -1,0 +1,36 @@
+dotfiles_repo: https://github.com/aldorperez1/dotfiles_osx.git
+dotfiles_repo_accept_hostkey: yes
+dotfiles_repo_local_destination: ~/src/dotfiles
+dotfiles_files:
+  - .bash_profile
+  - .vimrc
+  - .inputrc
+  - .bashrc
+  - .bash_aliases
+
+
+homebrew_installed_packages:
+  - bash-completion@2
+  - git
+  - nmap
+  - wget
+  - coreutils
+  - tree
+  - grep
+
+homebrew_taps:
+  - homebrew/core
+  - homebrew/cask
+
+homebrew_cask_appdir: /Applications
+homebrew_cask_apps:
+  - google-chrome
+  - licecap
+  - macvim
+  - sublime-text
+  - transmit
+  - vmware-fusion
+  - vagrant
+  - iterm2
+  - libreoffice
+  - pectacle
