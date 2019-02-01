@@ -33,4 +33,5 @@ homebrew_cask_apps:
   - vagrant
   - iterm2
   - libreoffice
-  - pectacle
+  - spectacle
+  - visual-studio-code
